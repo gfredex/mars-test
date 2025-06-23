@@ -1,0 +1,40 @@
+@media (max-width: 1550px) {
+    .topBar {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .why-mars {
+        justify-content: center;
+        gap: 55px;
+    }
+
+    .title-faq h2 {
+        padding-bottom: 80px;
+    }
+
+    .about-from-person {
+        padding: 130px 25px 76px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .stat-tokens {
+        flex-wrap: wrap;
+        align-items: stretch;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .center-cicle {
+        order: 1;
+    }
+
+    .left-side {
+        order: 2;
+    }
+
+    .right-side {
+        order: 3;
+    }
+}

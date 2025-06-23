@@ -1,0 +1,991 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrap {
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header {
+    background: linear-gradient(0deg, #FF7801 0%, #FF7801 100%), url(<path-to-image>) lightgray 0px -689.86px / 100% 197.384% no-repeat;
+}
+
+.header--wrap {
+    padding-bottom: 215px;
+    background-image:
+        url("../images/spaceMan.png"),
+        url("../images/planets.png"),
+        url("../images/man-uder-planet.png");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: left 75% bottom 0, top right, top 65px right 10px;
+    overflow: hidden;
+}
+
+.spaceMan {
+    position: absolute;
+    left: 42%;
+    bottom: 0;
+    line-height: 0;
+}
+
+.header-elips {
+    position: absolute;
+    width: 297px;
+    height: 296px;
+    border-radius: 297px;
+    background: linear-gradient(180deg, rgba(74, 31, 134, 0.60) 0%, rgba(105, 47, 239, 0.60) 100%);
+    filter: blur(150.60000610351562px);
+    top: -105px;
+    left: -135px
+}
+
+.header--planets {
+    line-height: 0;
+    position: absolute;
+    r: 0;
+    top: 0;
+}
+
+.topBar {
+    max-width: 1550px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    /* padding-left: 44.5%; */
+    padding-top: 50px;
+    gap: 30px;
+}
+
+.logo {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-right: 90px;
+}
+
+.wallet-btn,
+.login-btn {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 14px 30px;
+    border-radius: 38px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.wallet-btn {
+    color: #FF7801;
+    outline: none;
+    border: 1px solid #FFF;
+    /* margin-right: 30px; */
+
+}
+
+.login-btn {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #FF7801
+}
+
+.wallet-btn:hover {
+    border-color: #FFF;
+    background-color: #FF7801;
+    color: #FFF;
+}
+
+.login-btn:hover {
+    color: #FF7801;
+    background-color: #FFF;
+}
+
+.action {
+    max-width: 758px;
+    margin-left: 106px;
+}
+
+.title {
+    padding: 120px 0 60px;
+}
+
+.title>h1 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    margin: 0;
+}
+
+.buy-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Montserrat;
+}
+
+.buy-btns>button {
+    padding: 38px 31px;
+    color: #FF7801;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 151px;
+    border: 4px solid #FFF;
+    background: #FFF;
+    cursor: pointer;
+}
+
+
+/* Block About */
+.about {
+    position: relative;
+    padding: 120px 125px 150px;
+    /* padding-top: 120px;
+    padding-bottom: 150px; */
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.about-elips {
+    position: absolute;
+    width: 335px;
+    height: 335px;
+    transform: rotate(-120deg);
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgba(0, 243, 45, 0.60) 0%, rgba(255, 120, 1, 0.60) 100%);
+    filter: blur(103.0999984741211px);
+    top: -120px;
+    right: -100px;
+}
+
+.why-mars {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.title-why {
+    width: 798px;
+    color: #FF7801;
+    font-family: Montserrat;
+    font-size: 180px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/Ufo.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-right: 20px;
+}
+
+.title-why>p {
+    margin: 0;
+    padding: 0;
+}
+
+.title-why>p:first-child {
+    text-align: left;
+}
+
+.title-why>p:last-child {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.descrip-mars {
+    width: 480px;
+    color: #373737;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    padding-bottom: 36px;
+}
+
+.descrip-mars>p {
+    padding: 0;
+    margin: 0;
+}
+
+.about-items {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.about-items>.item {
+    width: 460px;
+    background: rgba(255, 120, 1, 0.04);
+    padding: 45px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-items .img-item {
+    display: block;
+    margin: 0 auto;
+}
+
+.about-items .title-item {
+    color: #FF7801;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+    padding: 44px 0;
+}
+
+.about-items .text-item {
+    color: #373737;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 43px;
+}
+
+.about-items .highlight {
+    color: #FF7801;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about-items .btn-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn--by-mars,
+.btn--view-mars {
+    width: 100%;
+    text-align: left;
+    padding: 21px 26px;
+    border-radius: 49px;
+    cursor: pointer;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn--by-mars {
+    background-color: #FF7801;
+    border: 1px solid #FF7801;
+}
+
+.btn--view-mars {
+    background: #8DC44D;
+    border: 1px solid #8DC44D;
+}
+
+.arr-btn {
+    display: inline-block;
+    width: 26px;
+    height: 15px;
+    background-image: url('../images/arrow.svg');
+}
+
+.about-from-person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 125px 76px;
+
+}
+
+.model-person {
+    position: relative;
+}
+
+.back-cicle-person {
+    position: absolute;
+    width: 324px;
+    height: 324px;
+    border-radius: 50%;
+    background: #FF7801;
+    top: 15%;
+    left: 15%;
+    z-index: -1;
+}
+
+.message-person {
+    padding: 72px;
+    border-radius: 25px;
+    background: #FFF5EB;
+    height: fit-content;
+    position: relative;
+}
+
+.message-person>p {
+    margin: 0;
+    padding: 0;
+    color: #373737;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.message-person>p .highlight {
+    color: #FF7801;
+    font-weight: 700;
+}
+
+.message-person .mark-over-text {
+    position: absolute;
+    top: -15%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.tokenomics {
+    /* height: 1027px; */
+    /* background-image:
+        url('../images/background.png'),
+        linear-gradient(to bottom, rgb(143, 143, 143), rgb(0, 0, 0));
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: #1E1E1E;
+    background-image: url('../images/background.png');
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 230px;
+}
+
+.ellips-planet {
+    position: absolute;
+    width: 389px;
+    height: 389px;
+    border-radius: 50%;
+    background: #FE890C;
+    filter: blur(119.69999694824219px);
+    top: -10%;
+    right: 0;
+}
+
+.wrap-tokenomics {
+    position: relative;
+    background-image:
+        url("../images/spaceMan2.png"),
+        url("../images/planet1.png"),
+        url("../images/tikets.png");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: left 0 top 10%, top right, top 8% left 58%;
+    z-index: 1;
+}
+
+.tokenomics .title_line {
+    color: #FFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+
+.tokenomics .title_line>* {
+    margin: 0;
+    text-align: center;
+}
+
+.tokenomics .title_line>h2 {
+    font-size: 108px;
+
+}
+
+.tokenomics .title_line>h3 {
+    font-size: 58px;
+}
+
+.stat-tokens {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    font-family: Montserrat;
+}
+
+.stat-tokens .left-side,
+.stat-tokens .right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.stat-tokens .title {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    /* font-family: Montserrat; */
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.stat-tokens .percent {
+    display: inline-block;
+    /* font-family: Montserrat; */
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    padding: 10px 15px;
+    margin-left: 15px;
+    border-radius: 40px;
+}
+
+.stat-tokens .team .percent {
+    background-color: #52DA19;
+}
+
+.stat-tokens .reserve .percent {
+    background-color: #FF3B15;
+}
+
+.stat-tokens .community .percent {
+    background-color: #FE9509;
+}
+
+.stat-tokens .liquidity .percent {
+    background-color: #EF40FF;
+}
+
+.stat-tokens .marketing .percent {
+    background-color: #1CCEF6;
+}
+
+.stat-tokens .text {
+    color: #CDCDCD;
+    /* font-family: Montserrat; */
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.stat-tokens .text>span {
+    display: block;
+    font-weight: 700;
+}
+
+.stat-tokens .center-cicle {
+    width: 385px;
+    height: 385px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* font-family: Montserrat; */
+    position: relative;
+}
+
+.stat-tokens .center-cicle>* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.stat-tokens .center-cicle .title {
+    color: #434343;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.stat-tokens .center-cicle>p {
+    color: #434343;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.center-cicle::after {
+    content: '';
+    position: absolute;
+    /* Абсолютное позиционирование */
+    left: -14%;
+    bottom: 5%;
+    border: 250px solid transparent;
+    border-bottom: 430px solid #D9D9D91C;
+}
+
+/* Block roadmap */
+
+.roadmap {
+    background: #FF7801;
+    /* height: 500px; */
+    overflow: hidden;
+}
+
+.wrap-roadmap {
+    position: relative;
+}
+
+.roadmap .left-shadow {
+    position: absolute;
+    width: 827px;
+    height: 823px;
+    border-radius: 827px;
+    background: linear-gradient(180deg, rgba(0, 166, 249, 0.60) 0%, rgba(186, 47, 151, 0.60) 100%);
+    filter: blur(150.60000610351562px);
+    top: -35%;
+    left: -30%;
+}
+
+.roadmap .right-shadow {
+    position: absolute;
+    width: 477px;
+    height: 475px;
+    border-radius: 477px;
+    background: linear-gradient(180deg, rgba(74, 31, 134, 0.60) 0%, rgba(105, 47, 239, 0.60) 100%);
+    filter: blur(150.60000610351562px);
+    top: -20%;
+    right: -10%;
+}
+
+.roadmap .down-shadow {
+    position: absolute;
+    width: 612px;
+    height: 104px;
+    border-radius: 612px;
+    background: #FFD186;
+    filter: blur(46.25px);
+    bottom: 0;
+    right: 10%;
+}
+
+.images {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.roadmap .planets {
+    position: absolute;
+    top: -30%;
+    left: -21%;
+    transform: rotate(60deg);
+}
+
+.roadmap .rocket {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.info-roadmap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+}
+
+.info-roadmap h2,
+.info-roadmap h3,
+.info-roadmap p {
+    margin: 0;
+    padding: 0;
+}
+
+.info-roadmap .title-roadmap {
+    width: 735px;
+    padding-top: 135px;
+}
+
+.title-roadmap h2 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.title-roadmap p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    padding: 30px 0 80px;
+}
+
+.cards-roadmap {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    margin-bottom: 65px;
+    z-index: 2;
+}
+
+.cards-roadmap>div {
+    width: 340px;
+    border-radius: 31px;
+    background: #FFF;
+    padding: 10px 10px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cards-roadmap h3,
+.cards-roadmap p {
+    color: #373737;
+    font-family: Montserrat;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+.cards-roadmap h3 {
+    font-size: 27px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.cards-roadmap p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/* community */
+.community {
+    background-color: #1E1E1E;
+    ;
+}
+
+.wrap-community {
+    padding: 85px 160px;
+    /* position: relative; */
+}
+
+.wrap-community .circles {
+    /* position: absolute; */
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.wrap-community .circles>div {
+    background-color: #FF7801;
+    position: absolute;
+}
+
+.circle-left-litl,
+.circle-right-litl {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    top: 0;
+}
+
+.circle-left-litl {
+    left: 0;
+}
+
+.circle-right-litl {
+    right: 0;
+}
+
+.circle-left-dig,
+.circle-right-dig {
+    width: 227px;
+    height: 227px;
+    border-radius: 50%;
+    top: 85px;
+}
+
+.circle-left-dig {
+    left: 10%;
+}
+
+.circle-right-dig {
+    right: 10%;
+}
+
+.content-community {
+    max-width: 1150px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    margin: 0 auto;
+    padding-top: 160px;
+    position: relative;
+    z-index: 3;
+}
+
+.title-community {
+    max-width: 870px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.info-community {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-community {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
+}
+
+.messengers {
+    padding: 80px 80px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.messengers>a {
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* FAQ */
+.faq {
+    background-color: #1E1E1E;
+    padding: 95px 0 185px;
+}
+
+.wrap-faq {
+    margin: 0 auto;
+}
+
+.content-faq {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.content-faq .questions>div {
+    width: 670px;
+    height: 110px;
+    /* padding: 20px 40px 20px 50px; */
+    padding-left: 50px;
+    padding-right: 40px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 78px;
+    border: 1px solid #FF7801;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content-faq .questions p {
+    max-width: 415px;
+}
+
+.content-faq .questions .arrow-down {
+    width: 42px;
+    height: 42px;
+    background-image: url(../images/arrowDown.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+.title-faq h2 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.content-faq>.right-side {
+    position: relative;
+}
+
+.faq-spaceman {
+    position: relative;
+    z-index: 2;
+}
+
+.bg-spaceman {
+    position: absolute;
+    background-image: url(../images/backgroungSpaceman.png);
+    background-size: cover;
+    background-position: bottom;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #FF7801;
+    padding: 65px 20px 75px;
+}
+
+.footer .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-title {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-text {
+    max-width: 600px;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-massegers {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.footer-nav {
+    padding: 65px 0 50px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    padding: 5px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.footer-massegers>div {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.footer-massegers img {
+    max-width: 65px;
+    max-height: 65px;
+}
