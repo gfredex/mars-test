@@ -91,4 +91,23 @@
         font-size: 15px;
         padding: 15px 5px 15px 15px;
     }
+
+    .about {
+        padding: 65px 13px 60px;
+    }
+
+    .title-why {
+        width: 100%;
+        font-size: 108px;
+        background-size: 150px;
+        margin-right: 0;
+    }
+
+    .descrip-mars {
+        padding-bottom: 0;
+    }
+
+    .descrip-mars>p {
+        text-align: center;
+    }
 }
