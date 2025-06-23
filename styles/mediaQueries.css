@@ -38,3 +38,57 @@
         order: 3;
     }
 }
+
+@media (max-width: 480px) {
+    .topBar {
+        padding-top: 45px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+    .header--wrap {
+        padding: 0 13px;
+        background-image: url(../images/spaceMan.png), url(../images/planets.png);
+        background-size: 320px, 415px;
+        background-position: left 50% bottom 0, top 15% right -230%;
+    }
+
+    .logo {
+        margin-right: 0;
+        font-size: 48px;
+        order: 2;
+    }
+
+    .login-btn {
+        order: 1;
+    }
+
+    .wallet-btn {
+        order: 3;
+        font-size: 14px;
+    }
+
+    .wallet-btn,
+    .login-btn {
+        padding: 10px;
+    }
+
+    .action {
+        margin-left: 0;
+        padding-bottom: 260px;
+    }
+
+    .title {
+        padding: 90px 0 30px;
+    }
+
+    .title>h1 {
+        font-size: 38px;
+    }
+
+    .buy-btns>button {
+        font-size: 15px;
+        padding: 15px 5px 15px 15px;
+    }
+}
