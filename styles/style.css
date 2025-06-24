@@ -874,6 +874,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    flex-shrink: 0;
+    margin-left: 25px;
 }
 
 
@@ -954,6 +956,7 @@
 .footer-massegers {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 35px;
 }
 
