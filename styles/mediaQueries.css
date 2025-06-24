@@ -37,6 +37,10 @@
     .right-side {
         order: 3;
     }
+
+    .info-roadmap .title-roadmap {
+        width: 100%;
+    }
 }
 
 @media (max-width: 480px) {
@@ -105,9 +109,114 @@
 
     .descrip-mars {
         padding-bottom: 0;
+        font-size: 26px;
     }
 
     .descrip-mars>p {
         text-align: center;
+    }
+
+    .about-items {
+        padding: 0 13px;
+        gap: 16px;
+    }
+
+    .about-items>.item {
+        width: 100%;
+    }
+
+    .about-from-person {
+        flex-direction: column-reverse;
+    }
+
+    .about-from-person {
+        padding: 125px 20px 85px;
+    }
+
+    .message-person {
+        padding: 60px 30px 55px;
+    }
+
+    .tokenomics .title_line {
+        padding-top: 400px;
+        padding-bottom: 130px;
+    }
+
+    .wrap-tokenomics {
+        background-size: 300px, 380px, 157px;
+        background-position: left 0 top 0, top 0 right -70px, top 22% right 10%;
+    }
+
+    .stat-tokens .center-cicle {
+        width: 228px;
+        height: 228px;
+        margin-bottom: 15px;
+    }
+
+    .center-cicle::after {
+        left: -14%;
+        bottom: 5%;
+        border: 145px solid transparent;
+        border-bottom: 285px solid #D9D9D91C;
+    }
+
+    .stat-tokens .center-cicle .title {
+        font-size: 18px;
+    }
+
+    .stat-tokens .center-cicle>p {
+        font-size: 21px;
+    }
+
+    .stat-tokens {
+        gap: 40px;
+    }
+
+    .left-side,
+    .right-side {
+        gap: 40px;
+    }
+
+    .tokenomics {
+        padding-bottom: 125px;
+    }
+
+    .wrap-roadmap {
+        padding: 0 17px;
+        padding-bottom: 90px;
+    }
+
+    .title-roadmap h2 {
+        width: 100%;
+        font-size: 78px;
+    }
+
+    .info-roadmap .title-roadmap {
+        padding-top: 260px;
+    }
+
+    .roadmap .planets {
+        top: -118px;
+        left: -170px;
+        width: 86%;
+    }
+
+    .roadmap .rocket {
+        top: 25px;
+        right: -40px;
+        width: 70%;
+        transform: rotate(25deg);
+    }
+
+    .title-roadmap p {
+        padding: 0 0 75px;
+    }
+
+    .cards-roadmap {
+        gap: 17px;
+    }
+
+    .roadmap .down-shadow {
+        display: none;
     }
 }

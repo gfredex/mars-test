@@ -194,6 +194,7 @@
     background-repeat: no-repeat;
     background-position: top right;
     margin-right: 20px;
+    z-index: 2;
 }
 
 .title-why>p {
@@ -384,6 +385,7 @@
     background-size: cover; */
     background-color: #1E1E1E;
     background-image: url('../images/background.png');
+    background-size: cover;
     position: relative;
     overflow: hidden;
     padding-bottom: 230px;
@@ -483,7 +485,7 @@
     background-color: #FF3B15;
 }
 
-.stat-tokens .community .percent {
+.stat-tokens .token-community .percent {
     background-color: #FE9509;
 }
 
